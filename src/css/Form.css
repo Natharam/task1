@@ -1,0 +1,122 @@
+html, body {
+	min-height: 100%;
+}
+
+body, div, form, input, select, p { 
+	padding: 0;
+	margin: 0;
+	outline: none;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	color: #eee;
+}
+
+body {
+	/*background: lightgray no-repeat center;
+	*/background-size: cover;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+h2 {
+	margin: 0 0 0 8px;
+}
+
+.main-block {
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+	padding: 25px;
+	background: rgba(0, 0, 0, 0.5); 
+}
+
+.fa-graduation-cap {
+	font-size: 72px;
+}
+
+form {
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.7); 
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+}
+
+input, select {
+	padding: 5px 15px;
+	margin-bottom: 30px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #eee;
+}
+
+input::placeholder {
+	color: #eee;
+}
+.btn-item, button {
+	padding: 10px 5px;
+	margin-top: 20px;
+	border-radius: 5px; 
+	border: none;
+	background: #26a9e0; 
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.btn-item {
+	display: inline-block;
+	margin: 20px 5px 0;
+}
+
+button {
+	width: 100%;
+}
+
+button:hover, .btn-item:hover {
+	background: #85d6de;
+}
+
+label {
+	margin: 15px 0;
+}
+
+.key-docs, .organization-type {
+	display: flex;
+
+}
+
+.key-docs input {
+	margin-left: 10px 
+}
+
+.organization-type {
+	flex-direction: column;
+}
+
+.organization-type input {
+	margin-left: 10px 
+}
+
+@media (min-width: 568px) {
+	html, body {
+		height: 100%;
+	}
+
+	.main-block {
+		flex-direction: row;
+		height: calc(100% - 50px);
+	}
+}
