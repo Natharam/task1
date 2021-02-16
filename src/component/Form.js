@@ -32,9 +32,9 @@ function Form({ data }) {
               return <input id="key-docs-title" type="text" name="name" value={doc.title} />;
             })}
           </div>
-          <label htmlFor="organizationType">organizationType Title</label>
+          <label htmlFor="organizationType">Organization Title</label>
           <input id="organizationType" type="text" name="name" value={data.organizationType.title} />
-          <label htmlFor="optionText">Option Text</label>
+          <label htmlFor="optionText">Organization Option Text</label>
           <div className="organization-type">
             {data.organizationType.options.map((option) => {
               return (

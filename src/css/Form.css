@@ -64,6 +64,7 @@ input, select {
 input::placeholder {
 	color: #eee;
 }
+
 .btn-item, button {
 	padding: 10px 5px;
 	margin-top: 20px;
@@ -90,16 +91,15 @@ button:hover, .btn-item:hover {
 }
 
 label {
-	margin: 15px 0;
+	margin: 10px 0 20px 0;
 }
 
 .key-docs, .organization-type {
 	display: flex;
-
 }
 
 .key-docs input {
-	margin-left: 10px 
+	margin-right: 30px 
 }
 
 .organization-type {
