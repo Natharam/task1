@@ -84,6 +84,9 @@ input::placeholder {
 
 button {
 	width: 100%;
+	cursor: pointer;
+	border: none;
+	outline: none;
 }
 
 button:hover, .btn-item:hover {

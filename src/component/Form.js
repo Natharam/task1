@@ -3,9 +3,13 @@ import "../css/Form.css";
 
 function Form({ data }) {
   console.log(data);
+  const submit = (e) => {
+    e.preventDefault();
+  }
+  
   return (
     <div className="main-block">
-      <form>
+      <form onSubmit={submit}>
         <div className="title">
           <h2>Details</h2>
         </div>
@@ -43,7 +47,7 @@ function Form({ data }) {
             })}
           </div>
         </div>
-        <button type="submit" href="/">
+        <button type="submit">
           Submit
         </button>
       </form>
