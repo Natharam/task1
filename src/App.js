@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <p>{error ? error : null}</p>
-      {state ? <Form data={state} /> : <h3 className="loading">Loading...</h3>}
+      {state.length > 0 || state ? <Form data={state} /> : <h3 className="loading">Loading...</h3>}
     </div>
   )
 }

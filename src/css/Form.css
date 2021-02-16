@@ -115,6 +115,10 @@ label {
 		height: 100%;
 	}
 
+	.key-docs {
+		flex-direction: column;
+	}
+
 	.main-block {
 		flex-direction: row;
 		height: calc(100% - 50px);
